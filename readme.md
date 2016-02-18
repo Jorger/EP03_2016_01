@@ -13,13 +13,13 @@ Repositorio asignatura Electiva Profesional III
 * Publicar en GitHub: https://youtu.be/D6VFF8Rsyao
 * Desplegar aplicaciones en GitHub: http://drastudio.github.io/url-generator/
 
-### Autor
-Jorge Rubaino
-
 ## Grabación de Clases.
 
 #### 11 de Febrero de 2016
 https://youtu.be/tRj7Emh0Lr8?t=1h57s
+
+### Autor
+Jorge Rubaino
 
 [@ostjh]
 License
