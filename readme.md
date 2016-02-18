@@ -16,6 +16,11 @@ Repositorio asignatura Electiva Profesional III
 ### Autor
 Jorge Rubaino
 
+## Grabación de Clases.
+
+#### 11 de Febrero de 2016
+https://youtu.be/tRj7Emh0Lr8?t=1h57s
+
 [@ostjh]
 License
 ----
