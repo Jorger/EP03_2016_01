@@ -18,6 +18,9 @@ Repositorio asignatura Electiva Profesional III
 #### 11 de Febrero de 2016
 https://youtu.be/tRj7Emh0Lr8?t=1h57s
 
+#### 18 de Febrero de 2016
+https://youtu.be/rbgVE6fbG6Q
+
 ### Autor
 Jorge Rubaino
 
