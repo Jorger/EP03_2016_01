@@ -1,0 +1,122 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	background-color: #B9D3EE;
+	color: white;
+	font-family: Arial;
+}
+
+header
+{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-shadow: 2px 2px black;
+}
+
+#semaforo
+{
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	padding-top: 10px;
+	margin-top: 30px;
+	background-image: url(../img/calle.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border: 5px dotted white;
+	border-radius: 50%;
+	box-shadow: inset 0 0 10px black;
+}
+
+#caja
+{
+
+	background: #4c4c4c; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#4c4c4c), color-stop(12%,#595959), color-stop(25%,#666666), color-stop(39%,#474747), color-stop(50%,#2c2c2c), color-stop(51%,#000000), color-stop(60%,#111111), color-stop(76%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	width: 130px;
+	margin: 0 auto;
+	/*background: black;*/
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: 5px solid white;
+	box-shadow: inset 0 0 10px white;
+}
+
+#base
+{
+	width: 40px;
+	height: 250px;
+	margin: 0 auto;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
+	background: #f5f6f6; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f5f6f6), color-stop(21%,#dbdce2), color-stop(49%,#b8bac6), color-stop(80%,#dddfe3), color-stop(100%,#f5f6f6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* IE10+ */
+	background: linear-gradient(to right,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=1 ); /* IE6-9 */
+}
+
+
+.led
+{
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: inset 0 0 10px black;
+	cursor: pointer; /* zoom-in */
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2r9//38gYGAEESAAEGAAasgJOgzOKCoAAAAASUVORK5CYII=);
+  	transition: background-color 2s ease-out;
+}
+
+#rojo
+{
+	transition: all 0.5s ease;
+	background-color: rgba(255, 0, 0, 0.26);
+}
+
+#naranja
+{
+	transition: all 0.5s ease;
+	background-color: rgba(253, 213, 40, 0.34);
+}
+
+#verde
+{
+	transition: all 0.5s ease;
+	background-color: rgba(133, 190, 71, 0.41);
+}
+
+#rojo:hover
+{
+	background-color: red;
+}
+
+#naranja:hover
+{
+	background-color: #FDD528;
+}
+
+#verde:hover
+{
+	background-color: #85BE47;
+}

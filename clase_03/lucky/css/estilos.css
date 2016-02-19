@@ -1,0 +1,68 @@
+body
+{
+    background: #00BCD4;
+    font-family: Arial;
+}
+
+header
+{
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-shadow: 2px 2px black;
+}
+
+.circulo
+{
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+#circulo_1
+{
+    border: 4px solid black;
+    background-color: #9DA274;
+    width: 200px;
+    height: 200px;
+}
+
+#circulo_2
+{
+    border: 1px solid white;
+    background-color: #FEFEFE;
+    width: 170px;
+    height: 170px;
+
+}
+
+#circulo_3
+{
+    border: 1px solid #D62132;
+    background-color: #D62132;
+    width: 140px;
+    height: 140px;
+}
+
+#nombre
+{
+    text-align: center;
+    margin-top: 19px;
+    font-weight: bold;
+    font-family: 'Oswald', Tahoma;
+    font-size: 2em;
+    color: #231F20;
+}
+
+#eslogan
+{
+    text-align: center;
+    font-family: 'Oswald', Tahoma;
+    color: #961F2A;
+    font-size: 0.7em;
+
+}
+
+/*
+#961F2A
+*/

@@ -1,0 +1,107 @@
+body
+{
+	background-color: black;
+	font-family: Arial;
+}
+
+header
+{
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-shadow: 2px 2px #ff0000;
+}
+
+#base
+{
+	position: relative;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	background-color: #DA251C;
+	border-radius: 50%;
+	border: 10px dotted white;
+	box-shadow: inset 0 0 10px black;
+}
+
+#letra
+{
+	position: absolute;
+	font-size: 90px;
+	color: #DA251C;
+	bottom: 35px;
+	left: 68px;
+	font-weight: bold;
+}
+
+sub
+{
+	font-size: 20px;
+}
+
+#nombre
+{
+	margin-top: 20px;
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+}
+
+/*
+Tomado de: https://css-tricks.com/examples/ShapesOfCSS/
+*/
+
+#star-five
+{
+	margin: 50px 0;
+	position: relative;
+	display: block;
+	color: white;
+	width: 0px;
+	height: 0px;
+	border-right:  100px solid transparent;
+	border-bottom: 70px  solid white;
+	border-left:   100px solid transparent;
+	-moz-transform:    rotate(35deg);
+	-webkit-transform: rotate(35deg);
+	-ms-transform:     rotate(35deg);
+	-o-transform:      rotate(35deg);
+}
+
+#star-five:before
+{
+   border-bottom: 80px solid white;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+}
+
+#star-five:after
+{
+   position: absolute;
+   display: block;
+   color: white;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid white;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}

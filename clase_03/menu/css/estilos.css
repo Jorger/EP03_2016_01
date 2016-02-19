@@ -1,0 +1,96 @@
+body
+{
+	background-color: rgba(146, 83, 26, 0.85);
+}
+
+
+.menu li
+{
+	display: inline-block;
+	line-height: 50px; /*Superior*/
+	list-style: none; /*Decoración */
+	margin: 5px;
+}
+
+.menu li a
+{
+    /*
+	background-image: linear-gradient(
+		top,
+		rgba(255,255,255,.5) 0%,
+		rgba(0,0,0,0.1) 100%
+	);
+    */
+
+	background-image: -webkit-linear-gradient(
+	 	top,
+		red 20%,
+		blue 100%
+	);
+	border: 2px solid white;
+	border-radius: 20px 20px 0px 0px;
+	box-shadow: 10px 10px 10px black;
+	color: #f4f4f4; /*Internet Explorer*/
+	color: rgba(91, 191, 103, 0.7);
+	font: bold 2em "Myriad Pro", "Lucida Grande", Helvetica, Arial, sans-serif;
+	padding: 5px 15px;
+	text-decoration: none;
+	text-shadow: 5px 5px 10px white;
+	/*cursor: move;*/
+}
+
+/*Cuando se hace click sobre el elemento */
+.menu li a:active
+{
+	/*
+	background-image: linear-gradient(
+		bottom,
+		rgba(255,255,255,.5) 0%,
+		rgba(255,255,255,.2) 10%,
+		rgba(0,0,0,0.2) 85%,
+		rgba(0,0,0,0.4) 100%
+	);
+	*/
+	/*
+	background-image: -webkit-linear-gradient(
+	 	top,
+		yellow 0%,
+		rgba(255,255,255,.2) 10%,
+		rgba(0,0,0,.2) 85%,
+		rgba(0,0,0,.4) 100%
+	);
+	*/
+	background-color: red;
+}
+
+.red{
+	background: #b80202;
+}
+/* Cuando pasa el Mouse Por encima */
+.red:hover{
+	background: orange;
+}
+.green{
+	background: #46c431;
+}
+.green:hover{
+	background: #44e329;
+}
+.yellow{
+	background: #d9ce1c;
+}
+.yellow:hover{
+	background: #eee117;
+}
+.cyan{
+	background: #23c6de;
+}
+.cyan:hover{
+	background: #18d8f4;
+}
+.blue{
+	background: #3271d9;
+}
+.blue:hover{
+	background: #377ef2;
+}
