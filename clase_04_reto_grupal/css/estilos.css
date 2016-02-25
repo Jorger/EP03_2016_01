@@ -1,0 +1,39 @@
+body
+{
+    font-family: Arial;
+}
+
+.cajas
+{
+    display: inline-block;
+}
+
+.txtValor
+{
+    font-size: 4em;
+    text-align: center;
+}
+
+#resFraccionario, #resDecimal, #resSumatoria
+{
+    color: rgba(255, 0, 0, 0.65);
+    font-size: 6em;
+    font-style: oblique;
+}
+
+.campoTexto
+{
+    font-size: 3.5em;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.28);
+}
+
+#maximo
+{
+    width: 300px;
+}
+
+*:focus
+{
+    outline: 0;
+}
