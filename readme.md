@@ -21,6 +21,13 @@ https://youtu.be/tRj7Emh0Lr8?t=1h57s
 #### 18 de Febrero de 2016
 https://youtu.be/rbgVE6fbG6Q
 
+#### 25 de Febrero de 2016 
+https://youtu.be/X4b0ifRZDsk
+
+#### 03 de Marzo de 2016 
+https://youtu.be/c3181n7bBZI
+
+
 ### Autor
 Jorge Rubaino
 
