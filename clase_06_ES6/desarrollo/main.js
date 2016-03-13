@@ -38,10 +38,8 @@ let accionesEventos = div =>
         let guid = utils.nom_div(`p_${event.target.id.split("_")[1]}`).getAttribute("data");
         if(confirm("¿Está segur@ de realizar está acción?"))
         {
-            console.log("UNO");
             personas.eliminaPersona(guid, error =>
             {
-                console.log("SEIS");
                 if(error)
                 {
                     alert("La persona no existe");

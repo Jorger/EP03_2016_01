@@ -68,13 +68,11 @@ class Personas
         let indice = this.buscaPersona(guid).indice;
         if(indice >= 0)
         {
-            console.log("DOS");
             persistencia.crudData({
                                         registro : {campo : "guid" , guid},
                                         type     : "delete"
                                   }, error =>
                                   {
-                                      console.log("CINCO");
                                       if(!error)
                                       {
                                           this.listado.splice(indice, 1);

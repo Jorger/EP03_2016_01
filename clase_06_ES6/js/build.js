@@ -147,12 +147,10 @@ var Personas = function () {
 
             var indice = this.buscaPersona(guid).indice;
             if (indice >= 0) {
-                console.log("DOS");
                 _persistencia2.default.crudData({
                     registro: { campo: "guid", guid: guid },
                     type: "delete"
                 }, function (error) {
-                    console.log("CINCO");
                     if (!error) {
                         _this2.listado.splice(indice, 1);
                     }
@@ -337,9 +335,7 @@ var accionesEventos = function accionesEventos(div) {
     _utils2.default.nom_div("d_" + div).addEventListener('click', function (event) {
         var guid = _utils2.default.nom_div("p_" + event.target.id.split("_")[1]).getAttribute("data");
         if (confirm("¿Está segur@ de realizar está acción?")) {
-            console.log("UNO");
             personas.eliminaPersona(guid, function (error) {
-                console.log("SEIS");
                 if (error) {
                     alert("La persona no existe");
                 }
