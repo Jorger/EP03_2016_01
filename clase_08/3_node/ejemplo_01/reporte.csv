@@ -1,0 +1,4 @@
+sampler_label,aggregate_report_count,average,aggregate_report_median,aggregate_report_90%_line,aggregate_report_min,aggregate_report_max,aggregate_report_error%,aggregate_report_rate,aggregate_report_bandwidth
+Get Competitors,200,352,337,485,185,790,0.0,3.2943501894251357,61.63976924106407
+Add Competitors,200,245,226,320,176,708,0.0,3.309066843150232,0.671265537102912
+TOTAL,400,299,274,419,176,790,0.0,6.557377049180328,62.01183081454918

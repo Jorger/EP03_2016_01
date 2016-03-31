@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+#titulo
+{
+    font-family: Arial;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#carcasa
+{
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 2px solid black;
+    width: 612px;
+    height: 551px;
+    /*background-color: rgba(0, 188, 212, 0.56);*/
+    background-color: black;
+    background-image: url("../img/fondo.png"), url("../img/base.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 100;
+}
+
+
+.lineas
+{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.69);
+    border-radius: 50px;
+    height: 5px;
+
+}
+
+#linea1
+{
+    width: 470px;
+    left: 70px;
+    top: 320px;
+}
+
+#linea2
+{
+    width: 505px;
+    left: 50px;
+    bottom: 120px;
+}
+
+#totalPuntua
+{
+    color: white;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 2em;
+}
+
+.pato
+{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+}
+
+.puntuacion
+{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.2em;
+}
+
+#start
+{
+    margin-top: 20px;
+    width: 150px;
+    padding: 10px 15px;
+    text-align: center;
+    font: bold 15px arial;
+    color: #000;
+    top: 300px;
+    left: 590px;
+    cursor: pointer;
+}
+
+#cuadrado
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+
+
+/*
+Left... +52
+bottom: +62
+*/
