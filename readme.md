@@ -27,6 +27,18 @@ https://youtu.be/X4b0ifRZDsk
 #### 03 de Marzo de 2016 
 https://youtu.be/c3181n7bBZI
 
+#### 17 de Marzo de 2016 
+https://youtu.be/O9WGcsIJ2VE
+
+#### 31 de Marzo de 2016
+https://youtu.be/7wemwux-q3w
+
+#### 14 de Abril de 2016
+https://youtu.be/J9s_Rxyre1c
+
+#### 21 de Abril de 2016
+https://youtu.be/l1PBDVsTcGU
+
 
 ### Autor
 Jorge Rubaino
