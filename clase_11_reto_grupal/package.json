@@ -1,0 +1,22 @@
+{
+  "name": "REST_Array",
+  "version": "1.0.0",
+  "description": "Servicio REST con Arrays",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "mysql": "^2.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "REST",
+    "Node",
+    "Array"
+  ],
+  "author": "Jorge Rubiano",
+  "license": "ISC"
+}
