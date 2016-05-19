@@ -40,7 +40,7 @@ El ejercicio es la base del trabajo final
 ![FINAL](https://dl.dropboxusercontent.com/u/181689/TrabajoFinal.png)
 
 
-Se busca que el usuario pueda comentar un viídeo, el cual puede ser un embebido de Youtube, para lo cual deberá crear la estructura de datos.
+Se busca que el usuario pueda comentar un vídeo, el cual puede ser un embebido de Youtube, para lo cual deberá crear la estructura de datos.
 
 Sólo un usuario autenticado podrá hacer un comentario.
 
