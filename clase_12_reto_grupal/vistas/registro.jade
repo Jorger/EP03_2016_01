@@ -1,0 +1,42 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='google', value='notranslate')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+    meta(name='mobile-web-app-capable', content='yes')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='apple-mobile-web-app-status-bar-style', content='black')
+    link(rel='shortcut icon', href='img/favicon.ico', type='image/x-icon')
+    link(rel='icon', href='img/favicon.ico', type='image/x-icon')
+    title!= titulo
+  body.page
+    .navigation-bar
+      .navigation-bar__item.left.quarter.float-left
+      .navigation-bar__item.full.float-left.text-centering
+        span.navigation-bar__title.navigation-bar__line-height.float-left
+            strong 
+            !=titulo
+      .navigation-bar__item.right.quarter.float-left
+        span.icon-button--quiet.navigation-bar__line-height.font-weight-500
+    .main-image-wrapper
+      img(src='img/icon.png')
+    form#form(action='/registro', method='POST')
+      div#errorMsg(align='center')
+        !=error
+      input#nombre.text-input--underbar(type='text', placeholder='Nombre', value = '#{(data[0]) ? data[0] : ""}', name='nombre', autocomplete='off')
+      input#correo.text-input--underbar(type='text', placeholder='E-mail', value = '#{(data[1]) ? data[1] : ""}', name='correo', autocomplete='off')
+      input#username.text-input--underbar(type='text', placeholder='Nombre de Usuario', value = '#{(data[2]) ? data[2] : ""}', name='username', autocomplete='off')
+      input#password.text-input--underbar(type='password', placeholder='Contraseña', value='', name='password')
+      br
+      button.button.login-button Registrarme
+    br
+    div(align='center')
+      a(href='/login') Autenticarme
+    link(rel='stylesheet', href='css/font-awesome.min.css')
+    link(rel='stylesheet', href='css/onsen-css-components-default.css')
+    link(rel='stylesheet', href='css/login.css')
+    link(rel='stylesheet', type='text/css', href='css/sweet-alert.css')
+    script(src='js/sweet-alert.js')
+    script(src='js/jquery-1.11.3.min.js')
+    script(src='js/registro.js')
