@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Evaluación Final EP03</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<header>
+		<h1>
+			<div align="center">
+				Evaluación Final EP03
+			</div>
+		</h1>
+	</header>
+	<h2>1. Adivina el número</h2>
+	<p>
+		Escribir un algoritmo que obtenga un valor aleatorio entre 1 y 10, el usuario deberá ingresar el número (positivo), si el valor ingresado coincide con el valor aletorio, se deberá mostrar el mensaje "BUEN TRABAJO" con el número adivinado, si no es así deberá mostrar el mensaje "NO COINCIDE"
+	</p>
+	<div align="center" class = "ejercicio">
+		<button id = "nuevoNumero" class="btnAdivina">Nuevo Número</button>
+		<input type = "number" id = "adivinaNumero">
+		<button id = "validaAdivina" class="btnAdivina">Comprobar</button>
+		<div id="mensajeAdivina">Mensaje a mostrar</div>
+	</div>
+	<hr>
+	<h2>2.Truncar un String</h2>
+	<p>
+	Escribir una función que dado un String y un número que indique el valor máximo del mismo, si el tamaño del String es mayor que el valor dado, se deberá truncar adicionando ellipsis (...) al final.
+	</p>
+	<div align="center" class = "ejercicio">
+		<input type = "text" id = "stringTruncate">
+		<input type = "number" id = "numberTruncate" value = "0" min = "1" >
+		<div id="mensajeTruncate">Mensaje a mostrar</div>
+	</div>
+	<hr>
+	<h2>3. Cálculo de Promedio</h2>
+	<p>
+	Escribir un programa, que obtenga el promedio de un curso, este resultado deberá ser comparado para determinar el grado en que se encuentra dicho curso:
+	<div id="listadoGrados"></div>
+	</p>
+	<div class = "ejercicio">
+		<h4>Listado de estudiantes</h4>
+		<div id = "listadoUsuarios"></div>
+		<div align="center">
+			<button id = "calculaPromedio" class="btnAdivina">
+				Cálcular Promedio
+			</button>
+		</div>
+		<div id="mensajePromedio" align="center">
+			Determinar el promedio y el grado
+		</div>
+	</div>
+	<script src = "js/script.js"></script>
+</body>
+</html>

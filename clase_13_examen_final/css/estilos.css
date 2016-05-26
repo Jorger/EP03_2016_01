@@ -1,0 +1,61 @@
+body
+{
+	font-family: Arial;
+}
+
+#adivinaNumero
+{
+	font-size: 1.2em;
+	width: 100px;
+	text-align: center;
+}
+
+.btnAdivina
+{
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+.ejercicio
+{
+	margin-top: 20px;
+}
+
+#mensajeAdivina, #mensajeTruncate, #mensajePromedio
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 2em;
+	color: #2196f3;
+	font-weight: bold;
+}
+
+#stringTruncate, #numberTruncate
+{
+	width: 500px;
+	font-size: 1.5em;
+	padding: 10px;
+}
+
+#numberTruncate
+{
+	width: 100px;
+	text-align: center;
+}
+
+#mensajeTruncate
+{
+	font-style: oblique;
+}
+
+#listadoUsuarios, #listadoGrados
+{
+	font-size: 1.4em;
+}
+
+.notUser
+{
+	width: 80px;
+	font-size: 1.2em;
+	text-align: center;
+}
